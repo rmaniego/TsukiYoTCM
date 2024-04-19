@@ -1,11 +1,16 @@
 ## **REP-0001:** Transaction Reports testing - Export as XLSX  
+
 > **Summary:** Verify that a transaction report can be exported as XLSX successfully.  <br>
+
 **Preconditions:** _None_  
+
 Scenario 1 
+
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
  |    |      | Verify that       | 
-<br>**Post-conditions:**  
+**Post-conditions:**  
+
  - x  
  - y  
  - z  

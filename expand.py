@@ -66,14 +66,14 @@ def main():
         print(filepath)
 
         contents = (
-            f"## **{test_case_id}:** {test_case_name}  \n"
-            f"> **Summary:** {test_case_summary}  <br>\n"
-            f"**Preconditions:** _None_  \n"
-            f"Scenario 1 \n"
+            f"## **{test_case_id}:** {test_case_name}  \n\n"
+            f"> **Summary:** {test_case_summary}  <br>\n\n"
+            f"**Preconditions:** _None_  \n\n"
+            f"Scenario 1 \n\n"
             f" | \# | Step | Expected Behavior | \n"
             f" |----|------|-------------------| \n"
             f" |    |      | Verify that       | \n"
-            f"<br>**Post-conditions:**  \n"
+            f"**Post-conditions:**  \n\n"
             f" - x  \n"
             f" - y  \n"
             f" - z  \n"
