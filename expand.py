@@ -51,7 +51,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f"  * [{test_case_name}](<./{directory}>)  ")
+                    read_me.append(f"   * [{test_case_name.strip()}](<./{directory}>)  ")
                     print(directory)
                 continue
             elif test_case_name[4] != " ":
@@ -61,7 +61,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f"   * [{test_case_name}](<./{directory}>)  ")
+                    read_me.append(f"     * [{test_case_name.strip()}](<./{directory}>)  ")
                     print(directory)
                 continue
 
@@ -74,7 +74,7 @@ def main():
         if os.path.exists(filepath):
             continue
 
-        depth = " " * (len(path) + 1)
+        depth = " " * (len(path)*2)
         read_me.append(
             f"{depth} * [{test_case_id}: {test_case_name}](<./{filepath}>)  "
         )
