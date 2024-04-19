@@ -69,8 +69,8 @@ def main():
             f"{test_case_id}: {test_case_name}\n"
             f"Summary: {test_case_summary}\n"
             f"Preconditions: None\n"
-            f"Scenario 1"
-            f" | # | Step | Expected Behavior | \n"
+            f"Scenario 1\n"
+            f" | \# | Step | Expected Behavior | \n"
             f" |---|------|-------------------| \n"
             f" |   |      | Verify that       | \n"
         )
