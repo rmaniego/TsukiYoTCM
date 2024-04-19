@@ -9,8 +9,8 @@ Scenario 1
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
  |  1 | Launch application.                                 | Verify that the home screen is displayed. | 
- |  2 | In the appbar, tap the hamburger icon.              | Verify that the sidebar menu is opened. | 
- |  3 | In the sidebar, select `Users` menu.                | Verify that the `Users` screen is shown.    |  
+ |  2 | In the appbar, tap the hamburger icon.              | Verify that the sidebar menu is opened. |  
+ |  3 | In the sidebar, tap `Users` menu item.              | Verify that the `Users` screen is shown. |  
  |  4 | In the appbar, tap `+` icon.                        | Verify that the `New User` screen is shown. |  
  |  5 | Set the `Name` textfield to "Juan dela Cruz".       | Verify that the `Name` textfield value is "Juan dela Cruz". |  
  |  6 | Set the `Email` textfield to "juandcruz@gmail.com". | Verify that the `Email`textfield value is "juandcruz@gmail.com". |  
