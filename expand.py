@@ -13,18 +13,22 @@ def main():
 
     SNAKECASE = re.compile(r"[^\w.]+")
     SAFE_PATH = re.compile(r"[^\w\-. ]+")
-    
+
     read_me = []
     read_me.append("# TsukiYoTCM")
-    read_me.append("Android-based Inventory and PoS Test Case Management Repository  \n\n")
+    read_me.append(
+        "Android-based Inventory and PoS Test Case Management Repository  \n\n"
+    )
     read_me.append("## Test Cases  \n\n")
+
+    github = "https://github.com/rmaniego/TsukiYoTCM/tree/main"
 
     path = []
     directory = ""
     read_me = []
     for row in rows[1:]:
         assert len(row) == 3, "Invalid TCM file."
-        
+
         test_case_name = row[0]
         test_case_id = row[1]
         test_case_summary = row[2]
@@ -36,7 +40,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f" * [{test_case_name}](/{directory})  ")
+                    read_me.append(f" * [{test_case_name}]({github}/{directory})  ")
                     print(directory)
                 continue
             elif test_case_name[2] != " ":
@@ -49,7 +53,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f"  * [{test_case_name}](/{directory})  ")
+                    read_me.append(f"  * [{test_case_name}]({github}/{directory})  ")
                     print(directory)
                 continue
             elif test_case_name[4] != " ":
@@ -59,10 +63,10 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f"   * [{test_case_name}](/{directory})  ")
+                    read_me.append(f"   * [{test_case_name}]({github}/{directory})  ")
                     print(directory)
                 continue
-            
+
             raise Exception("Unsupported file format.")
 
         test_case_name = test_case_name.strip()
@@ -71,9 +75,12 @@ def main():
 
         if os.path.exists(filepath):
             continue
-        
-        depth = " "* (len(path)+1)
-        read_me.append(f"{depth} * [{test_case_id}:** {test_case_name}](/{filepath})  ")
+
+        depth = " " * (len(path) + 1)
+        read_me.append(
+            f"{depth} * [{test_case_id}: {test_case_name}]({github}/{filepath})  "
+        )
+
         print(filepath)
 
         contents = (
