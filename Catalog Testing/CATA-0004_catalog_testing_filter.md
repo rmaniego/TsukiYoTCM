@@ -8,7 +8,9 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |    |      | Verify that       |  
+ |  1 |      | Verify that ...   | 
+ |  2 |      | Verify that ...   | 
+ |  3 |      | Verify that ...   |  
 
 **Post-conditions:**  
 

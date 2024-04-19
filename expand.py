@@ -13,9 +13,15 @@ def main():
 
     SNAKECASE = re.compile(r"[^\w.]+")
     SAFE_PATH = re.compile(r"[^\w\-. ]+")
+    
+    read_me = []
+    read_me.append("# TsukiYoTCM")
+    read_me.append("Android-based Inventory and PoS Test Case Management Repository  \n\n")
+    read_me.append("## Test Cases  \n\n")
 
     path = []
     directory = ""
+    read_me = []
     for row in rows[1:]:
         assert len(row) == 3, "Invalid TCM file."
         
@@ -30,6 +36,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
+                    read_me.append(f" * [{test_case_name}](/{directory})  ")
                     print(directory)
                 continue
             elif test_case_name[2] != " ":
@@ -42,6 +49,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
+                    read_me.append(f"  * [{test_case_name}](/{directory})  ")
                     print(directory)
                 continue
             elif test_case_name[4] != " ":
@@ -51,6 +59,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
+                    read_me.append(f"   * [{test_case_name}](/{directory})  ")
                     print(directory)
                 continue
             
@@ -63,6 +72,8 @@ def main():
         if os.path.exists(filepath):
             continue
         
+        depth = " "* (len(path)+1)
+        read_me.append(f"{depth} * [{test_case_id}:** {test_case_name}](/{filepath})  ")
         print(filepath)
 
         contents = (
@@ -72,7 +83,9 @@ def main():
             f"Scenario 1 \n\n"
             f" | \# | Step | Expected Behavior | \n"
             f" |----|------|-------------------| \n"
-            f" |    |      | Verify that       |  \n\n"
+            f" |  1 |      | Verify that ...   | \n"
+            f" |  2 |      | Verify that ...   | \n"
+            f" |  3 |      | Verify that ...   |  \n\n"
             f"**Post-conditions:**  \n\n"
             f" - x  \n"
             f" - y  \n"
@@ -81,6 +94,9 @@ def main():
 
         with open(filepath, "w+", encoding="utf-8") as file:
             file.write(contents)
+
+        with open("README.md", "w+", encoding="utf-8") as file:
+            file.write("\n".join(read_me))
 
 
 if __name__ == "__main__":
