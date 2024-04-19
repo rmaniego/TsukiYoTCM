@@ -1,7 +1,11 @@
-SEC-0018: Discount testing
-Summary: Verify all inputs can handle Cross-Site Scripting (XSS) attacks.
-Preconditions: None
-Scenario 1
+## **SEC-0018:** Discount testing  
+> **Summary:** Verify all inputs can handle Cross-Site Scripting (XSS) attacks.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

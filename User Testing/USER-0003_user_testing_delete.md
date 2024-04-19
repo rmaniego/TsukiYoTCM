@@ -1,7 +1,11 @@
-USER-0003: User testing - Delete
-Summary: Verify that user is deleted successfully.
-Preconditions: None
-Scenario 1
+## **USER-0003:** User testing - Delete  
+> **Summary:** Verify that user is deleted successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

@@ -1,7 +1,11 @@
-UI-0015: Authentication testing
-Summary: Verify that DBCS inputs are saved and displayed properly.
-Preconditions: None
-Scenario 1
+## **UI-0015:** Authentication testing  
+> **Summary:** Verify that DBCS inputs are saved and displayed properly.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

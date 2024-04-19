@@ -1,7 +1,11 @@
-CATA-0001: Catalog testing - Setup
-Summary: Verify that online catalog is configured successfully.
-Preconditions: None
-Scenario 1
+## **CATA-0001:** Catalog testing - Setup  
+> **Summary:** Verify that online catalog is configured successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

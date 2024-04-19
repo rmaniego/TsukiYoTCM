@@ -1,7 +1,11 @@
-ORD-0005: Order testing - Search
-Summary: Verify that search feature is working successfully.
-Preconditions: None
-Scenario 1
+## **ORD-0005:** Order testing - Search  
+> **Summary:** Verify that search feature is working successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

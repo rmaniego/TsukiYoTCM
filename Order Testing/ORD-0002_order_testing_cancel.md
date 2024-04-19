@@ -1,7 +1,11 @@
-ORD-0002: Order testing - Cancel
-Summary: Verify that an order can be canceled successfully.
-Preconditions: None
-Scenario 1
+## **ORD-0002:** Order testing - Cancel  
+> **Summary:** Verify that an order can be canceled successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

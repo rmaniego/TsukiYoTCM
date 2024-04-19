@@ -1,7 +1,11 @@
-POS-0008: POS testing - Payment Method
-Summary: Verify that payment methods work successfully.
-Preconditions: None
-Scenario 1
+## **POS-0008:** POS testing - Payment Method  
+> **Summary:** Verify that payment methods work successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

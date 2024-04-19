@@ -1,7 +1,11 @@
-SEC-0009: Authentication testing - Change Email
-Summary: Verify user can change email account.
-Preconditions: None
-Scenario 1
+## **SEC-0009:** Authentication testing - Change Email  
+> **Summary:** Verify user can change email account.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

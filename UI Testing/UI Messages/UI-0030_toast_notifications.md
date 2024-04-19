@@ -1,7 +1,11 @@
-UI-0030: Toast notifications
-Summary: Verify that toast notifications are working successfully.
-Preconditions: None
-Scenario 1
+## **UI-0030:** Toast notifications  
+> **Summary:** Verify that toast notifications are working successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

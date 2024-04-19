@@ -1,7 +1,11 @@
-CON-0002: 4G/LTE testing
-Summary: Verify the app is working on 4G/LTE network.
-Preconditions: None
-Scenario 1
+## **CON-0002:** 4G/LTE testing  
+> **Summary:** Verify the app is working on 4G/LTE network.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

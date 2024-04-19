@@ -1,7 +1,11 @@
-POS-0009: POS testing - Checkout
-Summary: Verify that checkout is working successfully.
-Preconditions: None
-Scenario 1
+## **POS-0009:** POS testing - Checkout  
+> **Summary:** Verify that checkout is working successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

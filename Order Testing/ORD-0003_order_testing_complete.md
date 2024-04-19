@@ -1,7 +1,11 @@
-ORD-0003: Order testing - Complete
-Summary: Verify that an order can be completed successfully.
-Preconditions: None
-Scenario 1
+## **ORD-0003:** Order testing - Complete  
+> **Summary:** Verify that an order can be completed successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

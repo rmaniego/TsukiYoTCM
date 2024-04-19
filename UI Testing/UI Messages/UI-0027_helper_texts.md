@@ -1,7 +1,11 @@
-UI-0027: Helper texts
-Summary: Verify that UI helper texts are displayed properly.
-Preconditions: None
-Scenario 1
+## **UI-0027:** Helper texts  
+> **Summary:** Verify that UI helper texts are displayed properly.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  

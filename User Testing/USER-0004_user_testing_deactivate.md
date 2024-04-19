@@ -1,7 +1,11 @@
-USER-0004: User testing - Deactivate
-Summary: Verify that user is deactivated successfully.
-Preconditions: None
-Scenario 1
+## **USER-0004:** User testing - Deactivate  
+> **Summary:** Verify that user is deactivated successfully.  <br>
+**Preconditions:** _None_  
+Scenario 1 
  | \# | Step | Expected Behavior | 
- |---|------|-------------------| 
- |   |      | Verify that       | 
+ |----|------|-------------------| 
+ |    |      | Verify that       | 
+<br>**Post-conditions:**  
+ - x  
+ - y  
+ - z  
