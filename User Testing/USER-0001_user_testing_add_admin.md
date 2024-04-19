@@ -8,7 +8,7 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 | Launch application.                                 | Verify that the home screen is displayed. | 
+ |  1 | Launch application.                                 | Verify that the home screen is shown. | 
  |  2 | In the appbar, tap the hamburger icon.              | Verify that the sidebar menu is opened. |  
  |  3 | In the sidebar, tap `Users` menu item.              | Verify that the `Users` screen is shown. |  
  |  4 | In the appbar, tap `+` icon.                        | Verify that the `New User` screen is shown. |  
@@ -20,7 +20,7 @@ Scenario 1
  | 10 | Set the `Password` textfield to "g5#qeL".           | Verify that the `Password`textfield value is "g5#qeL". |
  | 11 | Tap the `Next` button.                              | Verify that the `Loading` screen is shown. |  
  | 12 | Wait until loading is completed.                    | Verify that the `Users` screen is shown. |  
- | 12 | In the list, find "Juan dela Cruz" card item.       | Verify that the "Juan dela Cruz" is visible. |
+ | 12 | In the list, find "Juan dela Cruz" card item.       | Verify that the "Juan dela Cruz" card item is visible. |
 
 **Post-conditions:**  
 

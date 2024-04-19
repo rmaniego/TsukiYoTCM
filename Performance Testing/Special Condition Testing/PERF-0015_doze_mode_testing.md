@@ -3,6 +3,7 @@
 > **Summary:** Verify that the app can handle POS operations after timeouts.  <br>
 
 **Preconditions:** 
+ - Admin or salesperson user must be logged in this session. 
  - Products and inventory must not be empty, enough for 1 transaction.  
  - All transactions had been cleared or is empty.
 
@@ -10,7 +11,7 @@ Scenario 1
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 | Launch application.                    | Verify that the `Checkout` screen is displayed. | 
+ |  1 | Launch application.                    | Verify that the home screen is shown. | 
  |  2 | Tap the first item in the inventory.   | Verify that the default quantity is "1". | 
  |  3 | Wait for 15s until screen timeouts     | Verify the device entered sleep state. | 
  |  4 | Unlock device.                         | Verify that the `Item Quantity` screen is shown. | 
