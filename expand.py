@@ -72,7 +72,7 @@ def main():
             f"Scenario 1 \n\n"
             f" | \# | Step | Expected Behavior | \n"
             f" |----|------|-------------------| \n"
-            f" |    |      | Verify that       | \n"
+            f" |    |      | Verify that       |  \n\n"
             f"**Post-conditions:**  \n\n"
             f" - x  \n"
             f" - y  \n"
