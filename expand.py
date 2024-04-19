@@ -11,7 +11,7 @@ def main():
             rows = list(csv.reader(file))
         break
 
-    SNAKECASE = re.compile(r"[^\w\-.]+")
+    SNAKECASE = re.compile(r"[^\w.]+")
     SAFE_PATH = re.compile(r"[^\w\-. ]+")
 
     path = []
@@ -38,7 +38,7 @@ def main():
                     del path[2]
                 elif len(path) == 2:
                     del path[1]
-                path[1].append(test_case_name.strip())
+                path.append(test_case_name.strip())
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
@@ -47,7 +47,7 @@ def main():
             elif test_case_name[4] != " ":
                 if len(path) == 3:
                     del path[2]
-                path[1].append(test_case_name.strip())
+                path.append(test_case_name.strip())
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
