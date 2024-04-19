@@ -16,8 +16,9 @@ Scenario 1
  |  5 | Set the `Category name` textfield to "<script>alert('');<\/script>". | Verify that the `Save` button is enabled. | 
  |  6 | Tap the `Save` button.                              | Verify that the "Input contains invalid characters, please try again." error message is shown. |
  |  7 | Set the `Category name` textfield to "bouquets". | Verify that the `Save` button is enabled. |   
- |  8 | Wait until loading is completed.                    | Verify that the `Categories` screen is shown. |  
- |  9 | In the list, find "bouquets" item.       | Verify that the "bouquets" item is visible. | 
+ |  8 | Tap the `Save` button.                              | Verify that the `Loading` screen is shown. |  
+ |  9 | Wait until loading is completed.                    | Verify that the `Categories` screen is shown. |  
+ | 10 | In the list, find "bouquets" item.       | Verify that the "bouquets" item is visible. | 
 
 **Post-conditions:**  
 

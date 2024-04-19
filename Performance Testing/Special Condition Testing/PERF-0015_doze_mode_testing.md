@@ -30,10 +30,11 @@ Scenario 1
  | 17 | Tap the `Charge` button.               | Verify the `Done` screen is shown. | 
  | 18 | Wait for 15s until screen timeouts     | Verify the device entered sleep state. | 
  | 19 | Unlock device.                         | Verify that the `Done` screen is shown. | 
- | 20 | Tap the `New Sale` button.             | Verify the `Checkout` screen  is shown. |  
- | 21 | In the appbar, tap the hamburger icon. | Verify that the sidebar menu is opened. |   
- | 22 | In the sidebar, tap `Transactions` menu item. | Verify that the `Transactions` screen is shown. |   
- | 23 | Check the number of daily sales. | Verify that the daily sale(s) is "1". |   
+ | 20 | Tap the `New Sale` button.             | Verify that the `Loading` screen is shown. |  
+ | 21 | Wait until loading is completed.       | Verify that the home screen is shown. |    
+ | 22 | In the appbar, tap the hamburger icon. | Verify that the sidebar menu is opened. |   
+ | 23 | In the sidebar, tap `Transactions` menu item. | Verify that the `Transactions` screen is shown. |   
+ | 24 | Check the number of daily sales. | Verify that the daily sale(s) is "1". |   
 
 **Post-conditions:**  
 
