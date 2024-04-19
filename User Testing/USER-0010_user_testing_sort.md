@@ -1,6 +1,6 @@
-## **USER-0005:** User testing - Deactivate  
+## **USER-0010:** User testing - Sort  
 
-> **Summary:** Verify that user is deactivated successfully.  <br>
+> **Summary:** Verify that sorting feature is working successfully.  <br>
 
 **Preconditions:** _None_  
 

@@ -1,6 +1,6 @@
-## **USER-0009:** User testing - Sort  
+## **USER-0007:** User testing - Show Deactivated  
 
-> **Summary:** Verify that sorting feature is working successfully.  <br>
+> **Summary:** Verify that deactivated users are properly displayed.  <br>
 
 **Preconditions:** _None_  
 

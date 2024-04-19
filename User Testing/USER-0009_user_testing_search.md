@@ -1,6 +1,6 @@
-## **USER-0003:** User testing - Edit  
+## **USER-0009:** User testing - Search  
 
-> **Summary:** Verify that user is modified and displayed successfully.  <br>
+> **Summary:** Verify that search feature is working successfully.  <br>
 
 **Preconditions:** _None_  
 

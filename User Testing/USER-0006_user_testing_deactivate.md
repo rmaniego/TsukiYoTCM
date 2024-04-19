@@ -1,6 +1,6 @@
-## **USER-0004:** User testing - Delete  
+## **USER-0006:** User testing - Deactivate  
 
-> **Summary:** Verify that user is deleted successfully.  <br>
+> **Summary:** Verify that user is deactivated successfully.  <br>
 
 **Preconditions:** _None_  
 

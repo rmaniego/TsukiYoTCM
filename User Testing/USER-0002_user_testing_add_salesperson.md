@@ -1,6 +1,6 @@
-## **USER-0008:** User testing - Search  
+## **USER-0002:** User testing - Add Salesperson  
 
-> **Summary:** Verify that search feature is working successfully.  <br>
+> **Summary:** Verify that standard user is saved and displayed successfully.  <br>
 
 **Preconditions:** _None_  
 

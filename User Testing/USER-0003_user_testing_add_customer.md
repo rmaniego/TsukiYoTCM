@@ -1,6 +1,6 @@
-## **USER-0007:** User testing - Filter  
+## **USER-0003:** User testing - Add Customer  
 
-> **Summary:** Verify that search filters work successfully.  <br>
+> **Summary:** Verify that standard user is saved and displayed successfully.  <br>
 
 **Preconditions:** _None_  
 

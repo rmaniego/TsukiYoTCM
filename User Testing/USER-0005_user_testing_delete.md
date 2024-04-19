@@ -1,6 +1,6 @@
-## **USER-0002:** User testing - Add User  
+## **USER-0005:** User testing - Delete  
 
-> **Summary:** Verify that standard user is saved and displayed successfully.  <br>
+> **Summary:** Verify that user is deleted successfully.  <br>
 
 **Preconditions:** _None_  
 

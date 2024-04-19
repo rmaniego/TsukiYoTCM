@@ -1,6 +1,6 @@
-## **USER-0006:** User testing - Show Deactivated  
+## **USER-0008:** User testing - Filter  
 
-> **Summary:** Verify that deactivated users are properly displayed.  <br>
+> **Summary:** Verify that search filters work successfully.  <br>
 
 **Preconditions:** _None_  
 
