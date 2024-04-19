@@ -1,6 +1,6 @@
-## **USER-0008:** User testing - Sort  
+## **USER-0004:** User testing - Delete  
 
-> **Summary:** Verify that sorting feature is working successfully.  <br>
+> **Summary:** Verify that user is deleted successfully.  <br>
 
 **Preconditions:** _None_  
 

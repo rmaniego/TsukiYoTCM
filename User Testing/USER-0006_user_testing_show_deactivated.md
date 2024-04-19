@@ -1,6 +1,6 @@
-## **USER-0004:** User testing - Deactivate  
+## **USER-0006:** User testing - Show Deactivated  
 
-> **Summary:** Verify that user is deactivated successfully.  <br>
+> **Summary:** Verify that deactivated users are properly displayed.  <br>
 
 **Preconditions:** _None_  
 

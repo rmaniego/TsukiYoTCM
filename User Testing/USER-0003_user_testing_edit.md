@@ -1,6 +1,6 @@
-## **USER-0001:** User testing - Add  
+## **USER-0003:** User testing - Edit  
 
-> **Summary:** Verify that user is saved and displayed successfully.  <br>
+> **Summary:** Verify that user is modified and displayed successfully.  <br>
 
 **Preconditions:** _None_  
 

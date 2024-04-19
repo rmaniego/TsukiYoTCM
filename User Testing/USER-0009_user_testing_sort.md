@@ -1,6 +1,6 @@
-## **USER-0007:** User testing - Search  
+## **USER-0009:** User testing - Sort  
 
-> **Summary:** Verify that search feature is working successfully.  <br>
+> **Summary:** Verify that sorting feature is working successfully.  <br>
 
 **Preconditions:** _None_  
 

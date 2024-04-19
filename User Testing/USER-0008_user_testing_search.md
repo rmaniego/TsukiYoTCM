@@ -1,6 +1,6 @@
-## **USER-0003:** User testing - Delete  
+## **USER-0008:** User testing - Search  
 
-> **Summary:** Verify that user is deleted successfully.  <br>
+> **Summary:** Verify that search feature is working successfully.  <br>
 
 **Preconditions:** _None_  
 

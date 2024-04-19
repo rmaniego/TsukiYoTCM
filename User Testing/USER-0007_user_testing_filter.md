@@ -1,4 +1,4 @@
-## **USER-0006:** User testing - Filter  
+## **USER-0007:** User testing - Filter  
 
 > **Summary:** Verify that search filters work successfully.  <br>
 
