@@ -24,8 +24,8 @@ Scenario 1
  | 12 | Verify that the `Unit-of-Measure` list item value is "Unit". | |   
  | 13 | Verify that the `Add to Catalog` switch is enabled. | |   
  | 14 | Verify that the `Create product` button is enabled. | |   
- | 15 | Set the `Product name` textfield to "Messenger Bag". | Verify that the `Product name` textfield value is "Messenger Bag". |  
- | 16 | Set the `Description` list item to "Mumu #2093 Men's Single Shoulder Bag Portable Waterproof Small Bags Sports Messenger Bag". | Verify that the `Description` list item value is "Mumu #2093 Men's Single Shoulder Bag Portable Waterproof Small Bags Sports Messenger Bag". |  
+ | 15 | Set the `Product name` textfield to "宵っ張り Messenger Bag". | Verify that the `Product name` textfield value is "宵っ張り Messenger Bag". |  
+ | 16 | Set the `Description` list item to "宵っ張り #2093 Men's Single Shoulder Bag Portable Waterproof Small Bags Sports Messenger Bag". | Verify that the `Description` list item value is "宵っ張り #2093 Men's Single Shoulder Bag Portable Waterproof Small Bags Sports Messenger Bag". |  
  | 17 | Set the `Category` list item to "Men's Fashion and Accessories". | Verify that the `Category` list item value is "Men's Fashion and Accessories". |  
  | 18 | Set the `Initial stocks on hand` list item to "50". | Verify that the `Initial stocks on hand` list item value is "50". |  
  | 19 | Tap the `Create product` button.             | Verify that the `Loading` screen is shown. |  
