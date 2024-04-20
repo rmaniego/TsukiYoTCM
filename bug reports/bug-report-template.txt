@@ -1,0 +1,52 @@
+InternalCodeName VERSION TestType TestSuite [Feature]: Concise bug title
+
+[Summary]
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. 
+ 2. 
+ 3.
+
+[Actual results]
+
+[Expected results]
+
+[Is this Breakage?]
+ No, new implementation
+ Yes, see previous code tested
+
+[Previous code tested]
+ AB.010.001
+ 
+[Severity: How does this problem impact the customer/user?]
+ 1. Specification issue
+ 2. Cosmetic issue / User is inconvenienced
+ 4. Crash or hang cleared by reload
+ 6. Crash or hang cleared by restart / Severe GUI, usability, and accessibility issue
+ 8. Data loss / Required function is missing
+ 10. Device or software no longer usable
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 2. Low, only special types of users
+ 6. Moderate
+ 8. High
+
+[Repeatability: Is this problem easily reproducible?]
+ 2. Only seen once, unable to reproduce
+ 4. Intermittent, seen more than once
+ 8. Reproducible, but requires additional setup
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+
+[Impact Sizing (in days)]
+ Less than a day
+
+/* Please Don't Share This Information to Others recklessly,
+** However, you may use this as basis for your software testing endeavors. */

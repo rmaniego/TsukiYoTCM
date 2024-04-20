@@ -1,0 +1,41 @@
+TsukiYo v1.0 2ndPass UI [Settings]: Decimal Precision not working
+
+[Summary]
+  When accessing checkout screen after disabling the decimal precision in the settings menu, the changes does not reflect unless the app is restarted.
+
+[Precondition]
+ Software version
+ Software configuration
+ Hardware specifications
+ Network configuration
+
+[Steps to reproduce]
+ 1. 
+ 2. 
+ 3.
+ 4.
+ 5.
+
+[Actual results]
+ The prices are still in `,.2f` format.
+
+[Expected results]
+ The prices should be in integer format.
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 6. Severe GUI, usability, and accessibility issue
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 2. Low, only special types of users
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+ SET-0002, POS-0005
+
+[Impact Sizing (in days)]
+ Less than a day
