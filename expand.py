@@ -38,7 +38,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f" * [{test_case_name}](<./test cases/{directory}>)  ")
+                    read_me.append(f" * [{test_case_name}](<./{directory}>)  ")
                     print(directory)
                 continue
             elif test_case_name[2] != " ":
@@ -51,7 +51,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f"   * [{test_case_name.strip()}](<./test cases/{directory}>)  ")
+                    read_me.append(f"   * [{test_case_name.strip()}](<./{directory}>)  ")
                     print(directory)
                 continue
             elif test_case_name[4] != " ":
@@ -61,7 +61,7 @@ def main():
                 directory = "/".join(path).replace("\/\/", "/")
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                    read_me.append(f"     * [{test_case_name.strip()}](<./test cases/{directory}>)  ")
+                    read_me.append(f"     * [{test_case_name.strip()}](<./{directory}>)  ")
                     print(directory)
                 continue
 
@@ -69,14 +69,14 @@ def main():
 
         test_case_name = test_case_name.strip()
         filename = SNAKECASE.sub("_", test_case_name.lower())
-        filepath = f"test cases/{directory}/{test_case_id}_{filename}.md".replace("\/\/", "/")
+        filepath = f"{directory}/{test_case_id}_{filename}.md".replace("\/\/", "/")
 
         if os.path.exists(filepath):
             continue
 
         depth = " " * (len(path)*2)
         read_me.append(
-            f"{depth} * [{test_case_id}: {test_case_name}](<./test cases/{filepath}>)  "
+            f"{depth} * [{test_case_id}: {test_case_name}](<./{filepath}>)  "
         )
 
         print(filepath)
