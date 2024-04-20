@@ -17,13 +17,12 @@ def main():
     read_me = []
     read_me.append("# TsukiYoTCM")
     read_me.append(
-        "Android-based Inventory and PoS Test Case Management Repository  \n\n"
+        "> Android-based Inventory and PoS Test Case Management Repository  \n\n"
     )
     read_me.append("## Test Cases  \n\n")
 
     path = []
     directory = ""
-    read_me = []
     for row in rows[1:]:
         assert len(row) == 3, "Invalid TCM file."
 

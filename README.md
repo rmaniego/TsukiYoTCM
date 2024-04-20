@@ -1,3 +1,6 @@
+# TsukiYoTCM
+> Android-based Inventory and PoS Test Case Management Repository  
+
  * [User Testing](<./User Testing>)  
    * [USER-0001: User testing - Add Admin](<./User Testing/USER-0001_user_testing_add_admin.md>)  
    * [USER-0002: User testing - Add Salesperson](<./User Testing/USER-0002_user_testing_add_salesperson.md>)  
